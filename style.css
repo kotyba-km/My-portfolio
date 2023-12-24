@@ -1,0 +1,43 @@
+.is-round
+{
+    border-radius: 20px;
+}
+.has-hover
+{
+    background-color: #F5F5F5;
+    transition: all 0.3s ;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    padding-top: 40px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+.has-hover1
+{
+    transition: all 0.3s ;
+}
+.has-hover1:hover
+{
+    background-color: #e8e8e8 ;
+}
+.has-hover:hover
+{
+    background-color: #ececec ;
+    box-shadow: -5px 10px 20px 3px rgba(0, 0, 0, 0.39);
+    transform: translateY(-10px);
+}
+.has-hover:active
+{
+    background-color: #c2c2c2 ;
+    cursor: pointer;
+}
+body
+{
+    background-image: url(web\ promo.png);
+    background-size: cover;
+    overflow: hidden;
+    height: 945px;
+    width: 100%;
+}
