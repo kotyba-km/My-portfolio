@@ -41,3 +41,24 @@ body
     height: 945px;
     width: 100%;
 }
+html
+{
+    background-color: #8EA0A6;
+}
+@media (max-width:1690px) {
+   body
+   {
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+   }
+   
+}
+@media (max-width:600px) 
+{
+    .wrap
+    {
+     display: flex;
+     flex-wrap: wrap;
+    }
+}
